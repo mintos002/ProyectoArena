@@ -9,5 +9,5 @@ MaxScanRows=8
 MaxBufferSize=2048
 FIL=MS Access
 DriverId=281
-DefaultDir=c:\Users\Maria\Documents\Alex\1UNI\MUAII\Herramientas\ARENA\Proyecto ARENA
+DefaultDir=c:\Users\Maria\Documents\Alex\1UNI\MUAII\Herramientas\Practicas Pablo\Pract3
 DBQ=C:\Users\Maria\Documents\Alex\1UNI\MUAII\Herramientas\ARENA\Proyecto ARENA\Trombone.accdb
