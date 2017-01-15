@@ -1,13 +1,38 @@
 
+----------------------------------------------------------------------
+17114:GGTAEC
+Entity: 145
+A runtime error was detected at time 2.5274379 at the following block:
+
+ *    7 2$              DUPLICATE,100-50:1,60$,50:NEXT(59$);
+
+Maximum of 150 entities exceeded.
+Possible causes:
+- A logic problem in your model is creating too many entities or not
+  disposing them. The run controller may be helpful in finding the problem.
+- You are in demo mode and have exceeded the entity limit. The commercial
+  version is required to run large models.
+- You have set an entity limit on the DISCRETE element that is too small.
+  Remove the limit or set it to a larger number.
+- You have exceeded the standard array s 
+pace for models. Use the Array Sizes
+  page in the Run/Setup dialog to increase the RSET space allocated and
+  recheck your model.
+----------------------------------------------------------------------
+
+
+SIMAN Run Controller.
+
+2.5274379 Hours>
                                       ARENA Simulation Results
                                                 Alex
 
                                   Summary for Replication 1 of 1
 
-Project: Unnamed Project                                             Run execution date : 1/14/2017
-Analyst: Alex                                                        Model revision date: 1/14/2017
+Project: Unnamed Project                                             Run execution date : 1/15/2017
+Analyst: Alex                                                        Model revision date: 1/15/2017
 
-Replication ended at time      : 2.0 Hours 
+Replication ended at time      : 2.5274379 Hours 
 Base Time Units: Hours
 
                                            TALLY VARIABLES
@@ -15,38 +40,203 @@ Base Time Units: Hours
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-PedidosTrombones.VATime                     .00000     (Insuf)    .00000     .00000          4    
-PedidosTrombones.NVATime                    .00000     (Insuf)    .00000     .00000          4    
-PedidosTrombones.WaitTime                   .00000     (Insuf)    .00000     .00000          4    
-PedidosTrombones.TranTime                   .00000     (Insuf)    .00000     .00000          4    
-PedidosTrombones.OtherTime                  .00000     (Insuf)    .00000     .00000          4    
-PedidosTrombones.TotalTime                  .00000     (Insuf)    .00000     .00000          4    
-PedidosBoquillas.VATime                         --         --         --         --          0
-PedidosBoquillas.NVATime                        --         --         --         --          0
-PedidosBoquillas.WaitTime                       --         --         --         --          0
-PedidosBoquillas.TranTime                       --         --         --         --          0
-PedidosBoquillas.OtherTime                      --         --         --         --          0
-PedidosBoquillas.TotalTime                      --         --         --         --          0
+Tiempo Total                                    --         --         --         --          0
+PedidosTrombones.VATime                         --         --         --         --          0
+PedidosTrombones.NVATime                        --         --         --         --          0
+PedidosTrombones.WaitTime                       --         --         --         --          0
+PedidosTrombones.TranTime                       --         --         --         --          0
+PedidosTrombones.OtherTime                      --         --         --         --          0
+PedidosTrombones.TotalTime                      --         --         --         --          0
+Moldeado del Laton Transpositor.Queue.Wait  .64309     (Insuf)    .00000     1.4701          7    
+Cortado del Laton campana.Queue.WaitingTim  .33928     (Insuf)    .00000     .77575         16    
+Moldeado del Laton Campana 2.Queue.Waiting  .32012     (Insuf)    .00000     .65267          4    
+Moldeado del Laton Campana 1.Queue.Waiting  .36340     (Insuf)    .00000     .96019          8    
+Moldeado del Laton Vara.Queue.WaitingTime   .26557     (Insuf)    .00000     .48489          3    
+Maquina cortadora.Queue.WaitingTime         .56541     (Insuf)    .00000     1.2801         11    
+Control de la boquilla.Queue.WaitingTime    .00000     (Insuf)    .00000     .00000          1    
+Juntar Campana y Transpositor.Queue1.Waiti  .39492     (Insuf)    .33915     .45068          2    
+Juntar Campana y Transpositor.Queue2.Waiti  .00000     (Insuf)    .00000     .00000          2    
+Control de la Vara.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          1    
+Cortado del Laton Vara.Queue.WaitingTime    .77225     (Insuf)    .00000     1.6704          5    
+Pulido Boquilla.Queue.WaitingTime               --         --         --         --          0
+Moldeado del Laton Transpositor 2.Queue.Wa  .41089     (Insuf)    .00000     .80224          3    
+Control del transpositor.Queue.WaitingTime  .00000     (Insuf)    .00000     .00000          2    
+Soldado del laton campana.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000          7    
+Juntar Piezas.Queue1.WaitingTime                --         --         --         --          0
+Juntar Piezas.Queue2.WaitingTime                --         --         --         --          0
+Juntar Piezas.Queue3.WaitingTime                --         --         --         --          0
+Soldado del Laton Vara.Queue.WaitingTime    .00000     (Insuf)    .00000     .00000          2    
+Pulido Campana y Transpositor.Queue.Waitin  .00000     (Insuf)    .00000     .00000          1    
+Soldado de campana y transpositor.Queue.Wa  .00000     (Insuf)    .00000     .00000          2    
+Cortado del Laton Transpositor.Queue.Waiti  .09666     (Insuf)    .00000     .33275         28    
+Lote Campana completa.Queue.WaitingTime     .00000     (Insuf)    .00000     .00000          4    
+Moldeado del Laton Vara 2.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000          2    
+Test de afinación.Queue.WaitingTime             --         --         --         --          0
+Lote Trombon completo.Queue.WaitingTime         --         --         --         --          0
+Control de la campana.Queue.WaitingTime     .00000     (Insuf)    .00000     .00000          3    
+Pulido Vara.Queue.WaitingTime               .00000     (Insuf)    .00000     .00000          1    
+Soldado del Laton Transpositor.Queue.Waiti  .00000     (Insuf)    .00000     .00000          6    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-PedidosTrombones.WIP                        .00000     (Insuf)    .00000     3.0000     .00000    
-PedidosBoquillas.WIP                        .00000     (Insuf)    .00000     .00000     .00000    
+PedidosTrombones.WIP                        53.759     (Insuf)    .00000     148.00     148.00    
+Trabajador control 3.NumberBusy             .03297     (Insuf)    .00000     1.0000     .00000    
+Trabajador control 3.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador control 3.Utilization            .03297     (Insuf)    .00000     1.0000     .00000    
+Trabajador control 1.NumberBusy             .09891     (Insuf)    .00000     1.0000     .00000    
+Trabajador control 1.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador control 1.Utilization            .09891     (Insuf)    .00000     1.0000     .00000    
+Trabajador  1.NumberBusy                    .00000     (Insuf)    .00000     .00000     .00000    
+Trabajador  1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador  1.Utilization                   .00000     (Insuf)    .00000     .00000     .00000    
+Soldador de campana y transpositor.NumberB  .32352     (Insuf)    .00000     1.0000     1.0000    
+Soldador de campana y transpositor.NumberS  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Soldador de campana y transpositor.Utiliza  .32352     (Insuf)    .00000     1.0000     1.0000    
+Trabajador control transpositor.NumberBusy  .06594     (Insuf)    .00000     1.0000     .00000    
+Trabajador control transpositor.NumberSche  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador control transpositor.Utilizatio  .06594     (Insuf)    .00000     1.0000     .00000    
+Trabajador pulidor boquillas.NumberBusy     .00000     (Insuf)    .00000     .00000     .00000    
+Trabajador pulidor boquillas.NumberSchedul  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador pulidor boquillas.Utilization    .00000     (Insuf)    .00000     .00000     .00000    
+Trabajador moldeador transpositor 2.Number  .78349     (Insuf)    .00000     1.0000     1.0000    
+Trabajador moldeador transpositor 2.Number  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador moldeador transpositor 2.Utiliz  .78349     (Insuf)    .00000     1.0000     1.0000    
+Trabajador moldeador transpositor.NumberBu  .97709     (Insuf)    .00000     1.0000     1.0000    
+Trabajador moldeador transpositor.NumberSc  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador moldeador transpositor.Utilizat  .97709     (Insuf)    .00000     1.0000     1.0000    
+Trabajador soldador vara.NumberBusy         .01219     (Insuf)    .00000     1.0000     .00000    
+Trabajador soldador vara.NumberScheduled    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador soldador vara.Utilization        .01219     (Insuf)    .00000     1.0000     .00000    
+Trabajador cortador vara.NumberBusy         1.0000     (Insuf)    .00000     1.0000     1.0000    
+Trabajador cortador vara.NumberScheduled    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador cortador vara.Utilization        1.0000     (Insuf)    .00000     1.0000     1.0000    
+Trabajador moldeador vara 2.NumberBusy      .44251     (Insuf)    .00000     1.0000     1.0000    
+Trabajador moldeador vara 2.NumberSchedule  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador moldeador vara 2.Utilization     .44251     (Insuf)    .00000     1.0000     1.0000    
+Trabajador moldeador vara.NumberBusy        .81921     (Insuf)    .00000     1.0000     1.0000    
+Trabajador moldeador vara.NumberScheduled   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador moldeador vara.Utilization       .81921     (Insuf)    .00000     1.0000     1.0000    
+Trabajador pulidor vara.NumberBusy          .12092     (Insuf)    .00000     1.0000     .00000    
+Trabajador pulidor vara.NumberScheduled     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador pulidor vara.Utilization         .12092     (Insuf)    .00000     1.0000     .00000    
+Trabajador moldeador campana 2.NumberBusy   .79849     (Insuf)    .00000     1.0000     1.0000    
+Trabajador moldeador campana 2.NumberSched  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador moldeador campana 2.Utilization  .79849     (Insuf)    .00000     1.0000     1.0000    
+Trabajador moldeador campana 1.NumberBusy   .94333     (Insuf)    .00000     1.0000     1.0000    
+Trabajador moldeador campana 1.NumberSched  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador moldeador campana 1.Utilization  .94333     (Insuf)    .00000     1.0000     1.0000    
+Trabajador soldador transpositor.NumberBus  .28000     (Insuf)    .00000     1.0000     1.0000    
+Trabajador soldador transpositor.NumberSch  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador soldador transpositor.Utilizati  .28000     (Insuf)    .00000     1.0000     1.0000    
+Trabajador cortador transpositor.NumberBus  .72330     (Insuf)    .00000     1.0000     1.0000    
+Trabajador cortador transpositor.NumberSch  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador cortador transpositor.Utilizati  .72330     (Insuf)    .00000     1.0000     1.0000    
+Trabajador pulidor campana y transpositor.  .13826     (Insuf)    .00000     1.0000     .00000    
+Trabajador pulidor campana y transpositor.  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador pulidor campana y transpositor.  .13826     (Insuf)    .00000     1.0000     .00000    
+Musico.NumberBusy                           .00000     (Insuf)    .00000     .00000     .00000    
+Musico.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Musico.Utilization                          .00000     (Insuf)    .00000     .00000     .00000    
+Maquina Boquillas.NumberBusy                1.0000     (Insuf)    .00000     1.0000     1.0000    
+Maquina Boquillas.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Maquina Boquillas.Utilization               1.0000     (Insuf)    .00000     1.0000     1.0000    
+Trabajador soldador campana.NumberBusy      .23080     (Insuf)    .00000     1.0000     .00000    
+Trabajador soldador campana.NumberSchedule  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador soldador campana.Utilization     .23080     (Insuf)    .00000     1.0000     .00000    
+Trabajador cortador campana.NumberBusy      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Trabajador cortador campana.NumberSchedule  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador cortador campana.Utilization     1.0000     (Insuf)    .00000     1.0000     1.0000    
+Trabajador control boquillas.NumberBusy     .90109     (Insuf)    .00000     1.0000     1.0000    
+Trabajador control boquillas.NumberSchedul  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Trabajador control boquillas.Utilization    .90109     (Insuf)    .00000     1.0000     1.0000    
+Moldeado del Laton Transpositor.Queue.Numb  7.0957     (Insuf)    .00000     20.000     20.000    
+Cortado del Laton campana.Queue.NumberInQu  5.4493     (Insuf)    .00000     20.000     20.000    
+Moldeado del Laton Campana 2.Queue.NumberI  1.0615     (Insuf)    .00000     3.0000     3.0000    
+Moldeado del Laton Campana 1.Queue.NumberI  2.6264     (Insuf)    .00000     7.0000     7.0000    
+Moldeado del Laton Vara.Queue.NumberInQueu  .43731     (Insuf)    .00000     1.0000     1.0000    
+Maquina cortadora.Queue.NumberInQueue       7.7231     (Insuf)    .00000     26.000     25.000    
+Control de la boquilla.Queue.NumberInQueue  3.6586     (Insuf)    .00000     9.0000     9.0000    
+Juntar Campana y Transpositor.Queue1.Numbe  .44651     (Insuf)    .00000     1.0000     1.0000    
+Juntar Campana y Transpositor.Queue2.Numbe  .00000     (Insuf)    .00000     1.0000     .00000    
+Control de la Vara.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Cortado del Laton Vara.Queue.NumberInQueue  10.335     (Insuf)    .00000     31.000     31.000    
+Pulido Boquilla.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Moldeado del Laton Transpositor 2.Queue.Nu  1.0284     (Insuf)    .00000     2.0000     2.0000    
+Control del transpositor.Queue.NumberInQue  .00000     (Insuf)    .00000     .00000     .00000    
+Soldado del laton campana.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Juntar Piezas.Queue1.NumberInQueue          .16574     (Insuf)    .00000     1.0000     1.0000    
+Juntar Piezas.Queue2.NumberInQueue          .08269     (Insuf)    .00000     1.0000     1.0000    
+Juntar Piezas.Queue3.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Soldado del Laton Vara.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
+Pulido Campana y Transpositor.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
+Soldado de campana y transpositor.Queue.Nu  .00000     (Insuf)    .00000     .00000     .00000    
+Cortado del Laton Transpositor.Queue.Numbe  1.7013     (Insuf)    .00000     9.0000     8.0000    
+Lote Campana completa.Queue.NumberInQueue   .00000     (Insuf)    .00000     2.0000     .00000    
+Moldeado del Laton Vara 2.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Test de afinación.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+Lote Trombon completo.Queue.NumberInQueue   .00000     (Insuf)    .00000     .00000     .00000    
+Control de la campana.Queue.NumberInQueue   .00000     (Insuf)    .00000     .00000     .00000    
+Pulido Vara.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+Soldado del Laton Transpositor.Queue.Numbe  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-PedidosTrombones.NumberIn                   4.0000    
-PedidosTrombones.NumberOut                  4.0000    
-PedidosBoquillas.NumberIn                   .00000    
-PedidosBoquillas.NumberOut                  .00000    
-System.NumberOut                            4.0000    
+PedidosTrombones.NumberIn                   148.00    
+PedidosTrombones.NumberOut                  .00000    
+Trabajador control 3.NumberSeized           1.0000    
+Trabajador control 3.ScheduledUtilization   .03297    
+Trabajador control 1.NumberSeized           3.0000    
+Trabajador control 1.ScheduledUtilization   .09891    
+Trabajador  1.NumberSeized                  .00000    
+Trabajador  1.ScheduledUtilization          .00000    
+Soldador de campana y transpositor.NumberS  2.0000    
+Soldador de campana y transpositor.Schedul  .32352    
+Trabajador control transpositor.NumberSeiz  2.0000    
+Trabajador control transpositor.ScheduledU  .06594    
+Trabajador pulidor boquillas.NumberSeized   .00000    
+Trabajador pulidor boquillas.ScheduledUtil  .00000    
+Trabajador moldeador transpositor 2.Number  3.0000    
+Trabajador moldeador transpositor 2.Schedu  .78349    
+Trabajador moldeador transpositor.NumberSe  7.0000    
+Trabajador moldeador transpositor.Schedule  .97709    
+Trabajador soldador vara.NumberSeized       2.0000    
+Trabajador soldador vara.ScheduledUtilizat  .01219    
+Trabajador cortador vara.NumberSeized       5.0000    
+Trabajador cortador vara.ScheduledUtilizat  1.0000    
+Trabajador moldeador vara 2.NumberSeized    2.0000    
+Trabajador moldeador vara 2.ScheduledUtili  .44251    
+Trabajador moldeador vara.NumberSeized      3.0000    
+Trabajador moldeador vara.ScheduledUtiliza  .81921    
+Trabajador pulidor vara.NumberSeized        1.0000    
+Trabajador pulidor vara.ScheduledUtilizati  .12092    
+Trabajador moldeador campana 2.NumberSeize  4.0000    
+Trabajador moldeador campana 2.ScheduledUt  .79849    
+Trabajador moldeador campana 1.NumberSeize  8.0000    
+Trabajador moldeador campana 1.ScheduledUt  .94333    
+Trabajador soldador transpositor.NumberSei  6.0000    
+Trabajador soldador transpositor.Scheduled  .28000    
+Trabajador cortador transpositor.NumberSei  28.000    
+Trabajador cortador transpositor.Scheduled  .72330    
+Trabajador pulidor campana y transpositor.  1.0000    
+Trabajador pulidor campana y transpositor.  .13826    
+Musico.NumberSeized                         .00000    
+Musico.ScheduledUtilization                 .00000    
+Maquina Boquillas.NumberSeized              11.000    
+Maquina Boquillas.ScheduledUtilization      1.0000    
+Trabajador soldador campana.NumberSeized    7.0000    
+Trabajador soldador campana.ScheduledUtili  .23080    
+Trabajador cortador campana.NumberSeized    16.000    
+Trabajador cortador campana.ScheduledUtili  1.0000    
+Trabajador control boquillas.NumberSeized   1.0000    
+Trabajador control boquillas.ScheduledUtil  .90109    
+System.NumberOut                            .00000    
 
 
-Simulation run time: 0.18 minutes.
-Simulation run complete.
+Simulation run time: 0.45 minutes.
+Simulation run completed with 1 error(s) and 0 warning(s).
