@@ -1,0 +1,52 @@
+
+                                      ARENA Simulation Results
+                                                Alex
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 1/14/2017
+Analyst: Alex                                                        Model revision date: 1/14/2017
+
+Replication ended at time      : 2.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+PedidosTrombones.VATime                     .00000     (Insuf)    .00000     .00000          4    
+PedidosTrombones.NVATime                    .00000     (Insuf)    .00000     .00000          4    
+PedidosTrombones.WaitTime                   .00000     (Insuf)    .00000     .00000          4    
+PedidosTrombones.TranTime                   .00000     (Insuf)    .00000     .00000          4    
+PedidosTrombones.OtherTime                  .00000     (Insuf)    .00000     .00000          4    
+PedidosTrombones.TotalTime                  .00000     (Insuf)    .00000     .00000          4    
+PedidosBoquillas.VATime                         --         --         --         --          0
+PedidosBoquillas.NVATime                        --         --         --         --          0
+PedidosBoquillas.WaitTime                       --         --         --         --          0
+PedidosBoquillas.TranTime                       --         --         --         --          0
+PedidosBoquillas.OtherTime                      --         --         --         --          0
+PedidosBoquillas.TotalTime                      --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+PedidosTrombones.WIP                        .00000     (Insuf)    .00000     3.0000     .00000    
+PedidosBoquillas.WIP                        .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+PedidosTrombones.NumberIn                   4.0000    
+PedidosTrombones.NumberOut                  4.0000    
+PedidosBoquillas.NumberIn                   .00000    
+PedidosBoquillas.NumberOut                  .00000    
+System.NumberOut                            4.0000    
+
+
+Simulation run time: 0.18 minutes.
+Simulation run complete.

@@ -1,0 +1,60 @@
+[RESOURCES]
+Trabajador de pulido boquillas
+Trabajador 3
+Trabajador 2
+Trabajador 1
+Maquina Boquillas
+[VARIABLES]
+Control de calidad Campana.NumberOut True
+Pedidos de Trombones.NumberOut
+vControlTranspositor
+Cortado del Latón Transpositor.NumberIn
+Control de calidad Boquilla.NumberOut False
+vControlBoquilla
+Moldeado del Latón Vara.NumberIn
+Soldado del Latón Vara.NumberOut
+Soldado del Latón Vara.NumberIn
+Control de calidad Boquilla.NumberOut True
+Control de la boquilla.NumberOut
+Control de la boquilla.NumberIn
+Control de la Vara.NumberOut
+Control del transpositor.NumberOut
+Pulido Boquilla.NumberOut
+Batch 1.NumberOut
+Control del transpositor.NumberIn
+Control de la campana.NumberOut
+Batch 2.NumberOut
+Control de la campana.NumberIn
+vnPedidos
+vControlVara
+Control de calidad  Transpositor.NumberOut True
+Cortado del Latón Transpositor.NumberOut
+Control de calidad  Transpositor.NumberOut False
+Cortado del Latón campana.NumberOut
+Cortado del Latón campana.NumberIn
+Control de calidad Vara.NumberOut False
+Moldeado del Latón  Campana.NumberOut
+Soldado del Latón Transpositor.NumberOut
+Soldado del Latón  Campana.NumberOut
+Soldado del Latón  Campana.NumberIn
+Soldado del Latón Transpositor.NumberIn
+Maquina cortadora.NumberIn
+Maquina cortadora.NumberOut
+Control de calidad Vara.NumberOut True
+Repartidor 3.NumberOut Dup
+Repartidor 2.NumberOut Dup
+Repartidor 1.NumberOut Dup
+Repartidor 3.NumberOut Orig
+Repartidor 2.NumberOut Orig
+Repartidor 1.NumberOut Orig
+vControlCampana
+Moldeado del Latón Transpositor.NumberOut
+Dispose 3.NumberOut
+Control de la Vara.NumberIn
+Moldeado del Latón Transpositor.NumberIn
+Cortado del Latón Vara.NumberOut
+Cortado del Latón Vara.NumberIn
+Pulido Boquilla.NumberIn
+Moldeado del Latón Vara.NumberOut
+Control de calidad Campana.NumberOut False
+Moldeado del Latón  Campana.NumberIn

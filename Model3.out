@@ -1,0 +1,75 @@
+
+                                      ARENA Simulation Results
+                                                Alex
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 1/14/2017
+Analyst: Alex                                                        Model revision date: 1/14/2017
+
+Replication ended at time      : 16666.667 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Acrg Amount Lost per Customer               25.119     1.2329     .10447     84.431        904    
+Cliente.VATime                              .00000     .00000     .00000     .00000       3338    
+Cliente.NVATime                             .00000     .00000     .00000     .00000       3338    
+Cliente.WaitTime                            .00000     .00000     .00000     .00000       3338    
+Cliente.TranTime                            .00000     .00000     .00000     .00000       3338    
+Cliente.OtherTime                           .00000     .00000     .00000     .00000       3338    
+Cliente.TotalTime                           .00000     .00000     .00000     .00000       3338    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Deberiamos producir? Queue.WaitingTime      .00000     .00000     .00000     .00000      45505    
+Seize 1.Queue.WaitingTime                   .00000     .00000     .00000     .00000      45505    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Stock on Hand                               93.392     11.331     .00000     483.40     55.491    
+Production On                               1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cliente.WIP                                 .00000     (Insuf)    .00000     1.0000     .00000    
+Entity 1.WIP                                1.0000     (Insuf)    .00000     1.0000     1.0000    
+Proceso Empaquetado.NumberBusy              .68296     .00787     .00000     1.0000     1.0000    
+Proceso Empaquetado.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Proceso Empaquetado.Utilization             .68296     .00787     .00000     1.0000     1.0000    
+Deberiamos producir? Queue.NumberInQueue    .00000     (Insuf)    .00000     1.0000     .00000    
+Seize 1.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Lost Percentage                             .27082    
+Cliente.NumberIn                            3338.0    
+Cliente.NumberOut                           3338.0    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          .00000    
+Proceso Empaquetado.NumberSeized            45505.    
+Proceso Empaquetado.ScheduledUtilization    .68296    
+System.NumberOut                            3338.0    
+
+                                           FREQUENCIES
+
+                                                            --Occurrences--    Standard  Restricted
+Identifier                                 Category         Number  AvgTime    Percent   Percent
+___________________________________________________________________________________________________
+
+Process States                             BUSY             3381    3.3666       68.30     68.30
+                                           FAILED           3380    1.5633       31.70     31.70
+
+
+
+Simulation run time: 0.63 minutes.
+Simulation run complete.
