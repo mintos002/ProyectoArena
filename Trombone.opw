@@ -23,8 +23,8 @@ Trabajador soldador campana
 Trabajador cortador campana
 Trabajador control boquillas
 [VARIABLES]
-Moldeado del Laton Transpositor 2.NumberOut
 Cortado del Laton Transpositor.NumberOut
+Moldeado del Laton Transpositor 2.NumberOut
 Control de calidad Campana.NumberOut True
 Pedidos de Trombones.NumberOut
 Moldeado del Laton Transpositor 2.NumberIn
@@ -39,8 +39,8 @@ Control de calidad Boquilla.NumberOut False
 vControlBoquilla
 Pulido Vara.NumberIn
 Pulido Vara.NumberOut
-Soldado del Laton Vara.NumberOut
 Soldado del Laton Vara.NumberIn
+Soldado del Laton Vara.NumberOut
 Control de calidad Boquilla.NumberOut True
 Control de la boquilla.NumberIn
 Control de la boquilla.NumberOut
@@ -50,9 +50,10 @@ Pulido Boquilla.NumberOut
 Control de calidad Campana y transpositor.NumberOut False
 Control del transpositor.NumberIn
 Control de la campana.NumberOut
-Control de calidad Campana y transpositor.NumberOut True
 Control de la campana.NumberIn
+Control de calidad Campana y transpositor.NumberOut True
 Lote Trombon completo.NumberOut
+Trombones entregados.NumberOut
 vnPedidos
 Moldeado del Laton Vara.NumberIn
 Lote Campana completa.NumberOut
@@ -61,11 +62,10 @@ Cortado del Laton campana.NumberOut
 Cortado del Laton campana.NumberIn
 vControlCampanaTranspositor
 Control de calidad Vara.NumberOut False
-Dispose 4.NumberOut
 Soldado del Laton Transpositor.NumberIn
 Maquina cortadora.NumberIn
-Control de calidad Vara.NumberOut True
 Maquina cortadora.NumberOut
+Control de calidad Vara.NumberOut True
 Control de producto final.NumberOut True
 Repartidor 1.NumberOut Dup
 Repartidor 2.NumberOut Dup
@@ -73,12 +73,12 @@ Repartidor 3.NumberOut Dup
 Repartidor 1.NumberOut Orig
 Repartidor 2.NumberOut Orig
 Repartidor 3.NumberOut Orig
-Moldeado del Laton Campana 2.NumberOut
 Moldeado del Laton Campana 1.NumberOut
+Moldeado del Laton Campana 2.NumberOut
 vControlCampana
 Moldeado del Laton Transpositor.NumberOut
-Moldeado del Laton Campana 2.NumberIn
 Moldeado del Laton Campana 1.NumberIn
+Moldeado del Laton Campana 2.NumberIn
 Control de calidad transpositor.NumberOut False
 Control de calidad transpositor.NumberOut True
 Soldado del Laton Transpositor.NumberOut
@@ -88,8 +88,8 @@ Moldeado del Laton Vara 2.NumberIn
 Control de la Vara.NumberIn
 Test de afinación.NumberIn
 Moldeado del Laton Transpositor.NumberIn
-Cortado del Laton Vara.NumberOut
 Cortado del Laton Vara.NumberIn
+Cortado del Laton Vara.NumberOut
 Pulido Boquilla.NumberIn
 Test de afinación.NumberOut
 Soldado del laton campana.NumberOut
